@@ -155,64 +155,47 @@ h2{
     margin-top: 800px;
 }
 
-.frame1 img{
-    margin-left: 150px;
-    margin-bottom: 1000px;
-    width: 800px;
-    height: 420px;
-    opacity: .8;
-}
-
 .frame1 p{
-    position: absolute;
-    top: 1480px;
-    left: 230px;
+    background-image: url("images/Frame.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px;
+    margin: 50px;
     margin-right: 1000px;
 }
 
-.frame2 img{
-    margin-left: 950px;
-    margin-bottom: 1000px;
-    width: 800px;
-    height: 400px;
-    opacity: .8;
-}
-
 .frame2 p{
-    position: absolute;
-    top: 2850px;
-    left: 1000px;
-    margin-right: 150px;
-}
-
-.frame3 img{
-    margin-left: 150px;
-    margin-bottom: 1000px;
-    width: 800px;
-    height: 420px;
-    opacity: .8;
+    background-image: url("images/Frame.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px;
+    margin: 50px;
+    margin-left: 1000px;
 }
 
 .frame3 p{
-
-}
-
-.frame4 img{
-    margin-left: 950px;
-    margin-bottom: 1000px;
-    width: 800px;
-    height: 400px;
-    opacity: .8;
+    background-image: url("images/Frame.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px;
+    margin: 50px;
+    margin-right: 1000px;
 }
 
 .frame4 p{
-
+    background-image: url("images/Frame.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px;
+    margin: 50px;
+    margin-left: 1000px;
 }
 
-.frame5 img{
-    margin-left: 150px;
-    margin-bottom: 1000px;
-    width: 800px;
-    height: 420px;
-    opacity: .8;
+.frame5 p{
+    background-image: url("images/Frame.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 50px;
+    margin: 50px;
+    margin-right: 1000px;
 }
