@@ -44,21 +44,170 @@ table {
 }
 
 /*------START------*/
+/*background-attachment: fixed;*/
+
+@font-face{
+    font-family: Iori;
+    src: url("fonts/Iori.otf") format("opentype");
+}
 
 body{
     font-family: Roboto;
-    background-color: #DB1702;
+    font-size: 30px;
+    color: #e0e0e0;
+    background-color: black;
 }
 
-p{
-    margin: 10%;
-    font-size: 40px;
+h1{
+    z-index: 1;
+    position: absolute;
+    color: #E03C31;
+    font-family: Iori;
+    font-size: 800px;
+    text-shadow: 0 0 40px #E03C31;
+    top: 50px;
+    left: 700px;
+    -webkit-animation: FadeIn 5s forwards ease-out;
+    -moz-animation: FadeIn 5s forwards ease-out;
+    -o-animation: FadeIn 5s forwards ease-out;
+    animation: FadeIn 5s forwards ease-out;
 }
 
-.black{
-    color: black;
+h2{
+    z-index: 1;
+    position: absolute;
+    color: #E03C31;
+    font-family: Iori;
+    font-size: 140px;
+    text-shadow: 0 0 80px #E03C31;
+    top: 610px;
+    left: 1180px;
+    -webkit-animation: FadeIn 5s forwards ease-out;
+    -moz-animation: FadeIn 5s forwards ease-out;
+    -o-animation: FadeIn 5s forwards ease-out;
+    animation: FadeIn 5s forwards ease-out;
 }
 
-.white{
-    color: white;
+.start{
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 50px;
+    left: 200px;
+}
+
+.end{
+    z-index: 0;
+    position: absolute;
+    width: 500px;
+    height: auto;
+    top: 50px;
+    left: 200px;
+    opacity: 0;
+    -webkit-animation: FadeIn 8s forwards ease-out;
+    -moz-animation: FadeIn 8s forwards ease-out;
+    -o-animation: FadeIn 8s forwards ease-out;
+    animation: FadeIn 8s forwards ease-out;
+}
+
+@-webkit-keyframes FadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@-moz-keyframes FadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@-o-keyframes FadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+@keyframes FadeIn {
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+}
+
+.separator{
+    background-image: url("images/Transition.png");
+    height: 600px;
+}
+
+.background{
+    background-image: url("images/GradientRed.jpg");
+    background-repeat: repeat;
+    background-size: 400px 1500px;
+    background-position-y: 40%;
+    background-attachment: fixed;
+}
+
+.main{
+    background-image: url("images/Hexagon.png");
+    background-repeat: repeat;
+    background-size: 600px;
+    margin-top: 800px;
+}
+
+.frame1 img{
+    margin-left: 150px;
+    margin-bottom: 1000px;
+    width: 800px;
+    height: 420px;
+    opacity: .8;
+}
+
+.frame1 p{
+    position: absolute;
+    top: 1480px;
+    left: 230px;
+    margin-right: 1000px;
+}
+
+.frame2 img{
+    margin-left: 950px;
+    margin-bottom: 1000px;
+    width: 800px;
+    height: 400px;
+    opacity: .8;
+}
+
+.frame2 p{
+    position: absolute;
+    top: 2850px;
+    left: 1000px;
+    margin-right: 150px;
+}
+
+.frame3 img{
+    margin-left: 150px;
+    margin-bottom: 1000px;
+    width: 800px;
+    height: 420px;
+    opacity: .8;
+}
+
+.frame3 p{
+
+}
+
+.frame4 img{
+    margin-left: 950px;
+    margin-bottom: 1000px;
+    width: 800px;
+    height: 400px;
+    opacity: .8;
+}
+
+.frame4 p{
+
+}
+
+.frame5 img{
+    margin-left: 150px;
+    margin-bottom: 1000px;
+    width: 800px;
+    height: 420px;
+    opacity: .8;
 }
