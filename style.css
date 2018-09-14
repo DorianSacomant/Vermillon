@@ -193,7 +193,7 @@ h2{
 
 .frame1 p{
     margin-right: 50%;
-    margin-bottom: 0px;
+    margin-bottom: 500px;
 }
 
 .frame2 p{
@@ -212,13 +212,13 @@ h2{
 }
 
 .frame5 p{
-    margin-bottom: 100px;
+    margin-bottom: 300px;
 }
 
 .img1{
     position: relative;
     width: 30%;
-    top: -300px;
+    top: -800px;
     left: 60%;
     box-shadow: 0 0 40px #E03C31;
 }
@@ -243,4 +243,25 @@ h2{
     top: -300px;
     left: 12%;
     box-shadow: 0 0 40px #E03C31;
+}
+
+.mol1{
+    position: relative;
+    width: 16%;
+    top: -180px;
+    left: -15%;
+}
+
+.mol2{
+    position: relative;
+    width: 32%;
+    top: -200px;
+    left: 15%;
+}
+
+.mol3{
+    position: relative;
+    width: 60%;
+    top: -300px;
+    left: 20%;
 }
