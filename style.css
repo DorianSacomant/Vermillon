@@ -227,6 +227,7 @@ h2{
 }
 
 .frame5 p{
+    margin-top: -200px;
     margin-bottom: 300px;
 }
 
@@ -255,7 +256,7 @@ h2{
 .img4{
     position: relative;
     width: 25%;
-    top: -300px;
+    top: -600px;
     left: 12%;
     box-shadow: 0 0 40px #E03C31;
 }
@@ -285,4 +286,14 @@ h2{
     width: 60%;
     top: -300px;
     left: 20%;
+}
+
+pre{
+    background-image: url("images/Frame.png");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding: 20px;
+    padding-left: 50px;
+    line-height: 50px;
+    text-align: center;
 }
